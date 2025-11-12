@@ -1,0 +1,1 @@
+RPI_ENABLE_UART = "1"

@@ -14,10 +14,12 @@ LIC_FILES_CHKSUM = ""
 
 # No information for SRC_URI yet (only an external source tree was specified)
 SRC_URI = "git://github.com/AUDOU/yocto-toggle.git;protocol=https;branch=master \
-           file://0001-Prepare-workspace-for-devtool-finish.patch \
-           "
-SRCREV = "13e2454f7a03c927d7f83db5f42f024ce2399959"
+          "
+#file://0001-Prepare-workspace-for-devtool-finish.patch \
+#"
 
+#SRCREV = "13e2454f7a03c927d7f83db5f42f024ce2399959"
+SRCREV= "e6cb208abd5d38d1b64dc955d217c318f50d4451"
 
 inherit pkgconfig
 

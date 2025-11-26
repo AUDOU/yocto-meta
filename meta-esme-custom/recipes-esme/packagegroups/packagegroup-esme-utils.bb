@@ -2,8 +2,8 @@ SUMMARY = "Packagegroup including esme-gpio-toggle"
 DESCRIPTION = "This packagegroup installs esme-gpio-toggle"
 LICENSE = "CLOSED"
 
-inherit packagegroup
+#inherit packagegroup
 
-PACKAGES = "${PN}"
+#PACKAGES = "${PN}"
 
 RDEPENDS:${PN} = "esme-gpio-toggle"
